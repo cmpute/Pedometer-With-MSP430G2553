@@ -1,0 +1,14 @@
+*.d43
+*.pbi
+*.cout
+*.browse
+settings/JBuQi.dni
+*.r43
+Debug/Obj/JBuQi.pbd
+settings/JBuQi.dbgdt
+path.txt
+settings/JBuQi.cspy.bat
+JBuQi.dep
+JBuQi.ewp
+JBuQi.ewd
+JBuQiCustomSfr.sfr
