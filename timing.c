@@ -96,7 +96,7 @@ __interrupt void TA0Intr()
   if(!MTimeSuspFLG)
     TA0FLG = 1;
   //待机计时标志处理
-  if(SleepFLG)
+  if(SleepFLG && STimeSuspFLG)
     --SleepFLG;
 #ifdef IsAutoSave
   if(!(--delaySave))
